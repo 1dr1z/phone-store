@@ -1,0 +1,12 @@
+.home-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.home-wrapper h1 {
+  width: 100%;
+  text-align: center;
+  margin: 10% auto;
+}

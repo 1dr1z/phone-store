@@ -1,0 +1,51 @@
+.search-users-wrapper {
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--color-primary);
+  width: 100%;
+  padding: 10px 0;
+}
+
+.form-field {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  font-size: 80%;
+  padding: 0 5px;
+}
+
+.form-field input {
+  font-size: 80%;
+  height: 25px;
+  outline: none;
+  padding: 0 5px;
+}
+
+.users {
+  display: flex;
+  flex-flow: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .form-field {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .form-field label {
+    margin-bottom: 10px;
+  }
+  .form-field label,
+  .form-field input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+.phone-list {
+  display: flex;
+  flex-flow: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
